@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Tiền Điện, Nước</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="ttphong.html">Quản Lý Phòng Ký Túc Xá</a>
+            <a href="sv.html">Quản Lý Sinh Viên</a>
+            <a href="tienphong.html">Quản Lý Hóa Đơn</a>
+            <a href="dichvu.html">Quản Lý Tiền Điện, Nước, Dịch Vụ</a>
+            <a href="index.html">Đăng Xuất</a>
+        </nav>
+    </header>
+    <div class="container"></div>
+    <h1>Tiền Điện, Nước</h1>
+    <form id>
+        <label for="phong">Phòng:</label>
+        <input type="number" id="phong" >
+
+        <label for="dien">Tiêu thụ điện (kWh):</label>
+        <input type="number" id="dien" >
+
+        <label for="nuoc">Tiêu thụ nước (m³):</label>
+        <input type="number" id="nuoc" >
+
+        <button type="submit">+Thêm</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Phòng</th>
+                <th>Điện (VND)</th>
+                <th>Nước (VND)</th>
+                <th>Dịch Vụ (VND)</th>
+                <th>Ngày Tạo</th>
+                <th>Trạng Thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>160.000</td>
+                <td>150.000</td>
+                <td>100.000</td>
+                <td>01/10/2024</td>
+                <td>Đã thanh toán</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>120.000</td>
+                <td>120.000</td>
+                <td>100.000</td>
+                <td>01/10/2024</td>
+                <td>Đã thanh toán</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
